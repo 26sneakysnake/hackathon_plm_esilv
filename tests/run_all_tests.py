@@ -18,12 +18,15 @@ def run_tests():
     print("=" * 80)
     print(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
 
+    # Obtenir le répertoire des tests
+    tests_dir = Path(__file__).parent
+
     # Liste des suites de tests
     test_suites = [
-        ("test_data_loader.py", "Validation du chargement des données"),
-        ("test_event_log_builder.py", "Validation de la génération de l'event log"),
-        ("test_analysis.py", "Validation des modules d'analyse"),
-        ("test_integration.py", "Tests d'intégration end-to-end"),
+        (tests_dir / "test_data_loader.py", "Validation du chargement des données"),
+        (tests_dir / "test_event_log_builder.py", "Validation de la génération de l'event log"),
+        (tests_dir / "test_analysis.py", "Validation des modules d'analyse"),
+        (tests_dir / "test_integration.py", "Tests d'intégration end-to-end"),
     ]
 
     results = []
@@ -39,7 +42,7 @@ def run_tests():
 
         # Exécuter les tests avec pytest
         result = pytest.main([
-            test_file,
+            str(test_file),
             "-v",
             "--tb=short",
             "--color=yes"
