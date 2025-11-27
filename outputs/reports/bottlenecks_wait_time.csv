@@ -1,0 +1,17 @@
+activity,cycle_time_mean,wait_time_mean,event_count,wait_to_cycle_ratio,is_bottleneck,wait_time_impact_pct
+Assemblage aile droite,0.0,0.09808958735423062,150,inf,True,2.0
+Assemblage aile droite_Rework,0.0,0.5,12,inf,True,10.4
+Assemblage aile gauche,0.0,0.1,150,inf,True,2.1
+Assemblage aile gauche_Rework,0.0,0.5,16,inf,True,10.4
+Assemblage fuselage centrale,0.0,0.10321323115925661,150,inf,True,2.2
+Assemblage fuselage centrale_Rework,0.0,0.5,10,inf,True,10.4
+Assemblage queue avion,0.0,0.0999851575561638,150,inf,True,2.1
+Assemblage queue avion_Rework,0.0,0.5,17,inf,True,10.4
+Assemblage train atterissage droit,0.0,0.10044642219058149,150,inf,True,2.1
+Assemblage train atterissage droit_Rework,0.0,0.5,9,inf,True,10.4
+Assemblage train atterissage gauche,0.0,0.1,150,inf,True,2.1
+Assemblage train atterissage gauche_Rework,0.0,0.5,10,inf,True,10.4
+Fixation réacteur aile droite,0.0,0.0976020708386212,150,inf,True,2.0
+Fixation réacteur aile droite_Rework,0.0,0.5,13,inf,True,10.4
+Fixation réacteur aile gauche,0.0,0.09755695084348837,150,inf,True,2.0
+Fixation réacteur aile gauche_Rework,0.0,0.5,11,inf,True,10.4

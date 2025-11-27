@@ -1,0 +1,17 @@
+activity,Temps Réel Moyen (h),Temps Réel Std (h),Temps Réel Min (h),Temps Réel Max (h),Temps Attente Moyen (h),Temps Attente Std (h),Temps Attente Min (h),Temps Attente Max (h),Nombre Événements
+Assemblage aile droite,0.0,0.0,0.0,0.0,0.1,0.03,0.05,0.15,150
+Assemblage aile droite_Rework,0.0,0.0,0.0,0.0,0.5,0.0,0.5,0.5,12
+Assemblage aile gauche,0.0,0.0,0.0,0.0,0.1,0.0,0.1,0.1,150
+Assemblage aile gauche_Rework,0.0,0.0,0.0,0.0,0.5,0.0,0.5,0.5,16
+Assemblage fuselage centrale,0.0,0.0,0.0,0.0,0.1,0.03,0.05,0.15,150
+Assemblage fuselage centrale_Rework,0.0,0.0,0.0,0.0,0.5,0.0,0.5,0.5,10
+Assemblage queue avion,0.0,0.0,0.0,0.0,0.1,0.03,0.05,0.15,150
+Assemblage queue avion_Rework,0.0,0.0,0.0,0.0,0.5,0.0,0.5,0.5,17
+Assemblage train atterissage droit,0.0,0.0,0.0,0.0,0.1,0.03,0.05,0.15,150
+Assemblage train atterissage droit_Rework,0.0,0.0,0.0,0.0,0.5,0.0,0.5,0.5,9
+Assemblage train atterissage gauche,0.0,0.0,0.0,0.0,0.1,0.0,0.1,0.1,150
+Assemblage train atterissage gauche_Rework,0.0,0.0,0.0,0.0,0.5,0.0,0.5,0.5,10
+Fixation réacteur aile droite,0.0,0.0,0.0,0.0,0.1,0.03,0.05,0.15,150
+Fixation réacteur aile droite_Rework,0.0,0.0,0.0,0.0,0.5,0.0,0.5,0.5,13
+Fixation réacteur aile gauche,0.0,0.0,0.0,0.0,0.1,0.03,0.05,0.15,150
+Fixation réacteur aile gauche_Rework,0.0,0.0,0.0,0.0,0.5,0.0,0.5,0.5,11

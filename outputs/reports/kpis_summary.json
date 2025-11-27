@@ -1,0 +1,10 @@
+{
+  "lead_time_moyen_h": 1.02,
+  "wip_moyen": 0.01,
+  "throughput_pieces_par_jour": 47.85,
+  "taux_rework_pct": 15.1,
+  "flow_efficiency_pct": 0.0,
+  "cout_rework_total_euros": 0.0,
+  "nombre_goulots_identifies": 16,
+  "nombre_points_accumulation_wip": 8
+}
