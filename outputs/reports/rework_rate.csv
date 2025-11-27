@@ -1,0 +1,9 @@
+activity,total_events,rework_events,rework_rate_pct
+Assemblage queue avion,150,17,11.33
+Assemblage aile gauche,150,16,10.67
+Fixation réacteur aile droite,150,13,8.67
+Assemblage aile droite,150,12,8.0
+Fixation réacteur aile gauche,150,11,7.33
+Assemblage fuselage centrale,150,10,6.67
+Assemblage train atterissage gauche,150,10,6.67
+Assemblage train atterissage droit,150,9,6.0

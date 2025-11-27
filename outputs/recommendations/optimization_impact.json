@@ -1,0 +1,24 @@
+{
+  "baseline": {
+    "lead_time_mean": 1.0235749290444445,
+    "lead_time_std": 0.3978667186800242,
+    "wip_mean": 0.013157894736842105,
+    "throughput": 1.9935640512686443,
+    "rework_rate": 15.10015408320493,
+    "flow_efficiency": 0.0,
+    "rework_cost": 0.0
+  },
+  "optimized": {
+    "lead_time_mean": 0.8069259453488936,
+    "wip_mean": 0.009109235829959515,
+    "throughput": 2.204542072214575,
+    "rework_rate": 10.570107858243452
+  },
+  "delta": {
+    "wip_reduction_pct": 30.76980769230769,
+    "leadtime_reduction_pct": 21.165913461538462,
+    "throughput_increase_pct": 10.582956730769231,
+    "total_investment_euros": 120914
+  },
+  "roi_global": 4.295261190089332
+}
