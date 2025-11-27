@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  # Service principal - Dashboard Streamlit
+  dashboard:
+    build: .
+    container_name: manufacturing-radar-dashboard
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+      - ./outputs:/app/outputs
+      - ./src:/app/src
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: streamlit run src/visualization/dashboard.py --server.port=8501 --server.address=0.0.0.0
+    restart: unless-stopped
+
+  # Service pour exécuter les analyses (optionnel)
+  analyzer:
+    build: .
+    container_name: manufacturing-radar-analyzer
+    volumes:
+      - ./data:/app/data
+      - ./outputs:/app/outputs
+      - ./src:/app/src
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: python main.py
+    profiles:
+      - analyze

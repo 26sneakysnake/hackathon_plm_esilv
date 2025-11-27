@@ -21,6 +21,26 @@ Analyser une chaîne de production de 8 opérations pour :
 
 ## 🚀 Quick Start
 
+### 🐳 Méthode Recommandée : Docker (Aucun problème de dépendances)
+
+```bash
+# Cloner le repo
+git clone https://github.com/26sneakysnake/hackathon_plm_esilv.git
+cd hackathon_plm_esilv
+git checkout claude/manufacturing-operations-radar-01K8Kmj34pfFm78u3v1gRv55
+
+# Lancer le dashboard avec Docker
+docker-compose up dashboard
+
+# Accéder au dashboard sur http://localhost:8501
+```
+
+📖 **Guide complet Docker** : Voir [DOCKER.md](DOCKER.md)
+
+### 💻 Méthode Alternative : Installation Locale (Python 3.11 requis)
+
+⚠️ **Attention** : Nécessite Python 3.11 (pas 3.13) pour éviter les problèmes de compilation
+
 ```bash
 # Installer les dépendances
 pip install -r requirements.txt
@@ -39,6 +59,9 @@ python src/optimization/run_optimization.py
 
 # Lancer le dashboard
 streamlit run src/visualization/dashboard.py
+
+# OU tout exécuter d'un coup
+python main.py
 ```
 
 ## 📁 Structure du Projet
