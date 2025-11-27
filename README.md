@@ -83,6 +83,35 @@ manufacturing-radar/
 └── README.md
 ```
 
+## 🧪 Tests et Validation
+
+Suite complète de tests pour garantir la qualité et la fiabilité.
+
+### Exécuter les tests
+
+```bash
+# Avec Docker (recommandé)
+docker-compose run --rm tests
+
+# Avec Python local
+python tests/run_all_tests.py
+
+# Tests spécifiques
+pytest tests/test_data_loader.py -v
+pytest tests/test_analysis.py -v
+```
+
+### Couverture des tests
+
+- ✅ **Test du chargement des données** : Validation des 3 fichiers Excel
+- ✅ **Test de l'event log** : Génération et cohérence de 1298 événements
+- ✅ **Test des analyses** : ProcessMining, Bottlenecks, WIP, Rework
+- ✅ **Test d'intégration** : Workflow complet end-to-end
+- ✅ **Test des KPIs** : Validation de tous les indicateurs
+- ✅ **Test des outputs** : Rapports et visualisations
+
+📖 **Documentation complète** : Voir [tests/README_TESTS.md](tests/README_TESTS.md)
+
 ## 📈 Visualisations Disponibles
 
 - **Process Map**: Carte du flux de production
